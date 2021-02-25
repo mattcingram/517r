@@ -2,7 +2,7 @@
 #
 # HEADER
 #
-# This is template for RPOS 517, Assignment 2
+# This is template for RPOS 517, Assignment 3
 # it contains headings to remind you about transparency/workflow topics
 # date create: 2021-02-11
 # date updated: 2021-02-12
@@ -54,9 +54,7 @@ list.files()
 # check .libPaths() to see current library paths
 install.packages("pacman")
 library(pacman)
-p_load(ggplot2, 
-       car, 
-       stargazer,
+p_load(stargazer,
        coefplot)
 
 ################################
